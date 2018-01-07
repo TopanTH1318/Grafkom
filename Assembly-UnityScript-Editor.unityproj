@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F3FACE69-F7A3-A2C3-425A-B546DF1CF675}</ProjectGuid>
+    <ProjectGuid>{0B65CA14-90A7-B577-33D3-03091EFB9E6A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-UnityScript-Editor</AssemblyName>
@@ -134,7 +134,7 @@
  <HintPath>C:/Program Files/Unity 2017.3.0b9/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="TexturePackerImporter">
- <HintPath>D:/My Unity/grafkom/Assets/codeandweb.com/Editor/TexturePackerImporter.dll</HintPath>
+ <HintPath>D:/My Unity/New folder/Grafkom/Assets/codeandweb.com/Editor/TexturePackerImporter.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Azman/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@0.0.18/UnityEngine.Advertisements.dll</HintPath>
@@ -163,7 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{4858CA10-5766-10B8-3DB0-C8385477C75D}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+      <Project>{87118036-07AB-4C11-62A6-A54A4DE28862}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "grafkom", "Assembly-CSharp.csproj", "{4858CA10-5766-10B8-3DB0-C8385477C75D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafkom", "Assembly-CSharp.csproj", "{87118036-07AB-4C11-62A6-A54A4DE28862}"
 EndProject
-Project("{5D96A540-70DF-178C-B035-39691C915BCA}") = "grafkom", "Assembly-UnityScript-Editor.unityproj", "{F3FACE69-F7A3-A2C3-425A-B546DF1CF675}"
+Project("{78B562D8-806A-BA8F-C9B3-6F96E40F88CC}") = "Grafkom", "Assembly-UnityScript-Editor.unityproj", "{0B65CA14-90A7-B577-33D3-03091EFB9E6A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4858CA10-5766-10B8-3DB0-C8385477C75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4858CA10-5766-10B8-3DB0-C8385477C75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4858CA10-5766-10B8-3DB0-C8385477C75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4858CA10-5766-10B8-3DB0-C8385477C75D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3FACE69-F7A3-A2C3-425A-B546DF1CF675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3FACE69-F7A3-A2C3-425A-B546DF1CF675}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3FACE69-F7A3-A2C3-425A-B546DF1CF675}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3FACE69-F7A3-A2C3-425A-B546DF1CF675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87118036-07AB-4C11-62A6-A54A4DE28862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87118036-07AB-4C11-62A6-A54A4DE28862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87118036-07AB-4C11-62A6-A54A4DE28862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87118036-07AB-4C11-62A6-A54A4DE28862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B65CA14-90A7-B577-33D3-03091EFB9E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B65CA14-90A7-B577-33D3-03091EFB9E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B65CA14-90A7-B577-33D3-03091EFB9E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B65CA14-90A7-B577-33D3-03091EFB9E6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
