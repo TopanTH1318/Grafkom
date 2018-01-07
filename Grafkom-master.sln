@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Grafkom-master", "Assembly-CSharp.csproj", "{B27195EE-7E52-D2B5-3522-EC9B50CBE8B8}"
+EndProject
+Project("{C4B14832-4786-3EC3-9DAE-4F0488C9337B}") = "Grafkom-master", "Assembly-UnityScript-Editor.unityproj", "{2C2BF19D-E48F-DC9B-A5A1-008AC072D7DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B27195EE-7E52-D2B5-3522-EC9B50CBE8B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B27195EE-7E52-D2B5-3522-EC9B50CBE8B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B27195EE-7E52-D2B5-3522-EC9B50CBE8B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B27195EE-7E52-D2B5-3522-EC9B50CBE8B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C2BF19D-E48F-DC9B-A5A1-008AC072D7DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C2BF19D-E48F-DC9B-A5A1-008AC072D7DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C2BF19D-E48F-DC9B-A5A1-008AC072D7DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C2BF19D-E48F-DC9B-A5A1-008AC072D7DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
