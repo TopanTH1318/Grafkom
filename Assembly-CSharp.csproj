@@ -55,6 +55,8 @@
      <Compile Include="Assets\Script\CameraSystem.cs" />
      <Compile Include="Assets\Script\Player_move.cs" />
      <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
+     <None Include="Assets\craftpix-986711-2d-fantasy-trolls-free-sprite-sheets\_TXT\LICENSES.txt" />
+     <None Include="Assets\craftpix-986711-2d-fantasy-trolls-free-sprite-sheets\_TXT\readme.txt" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEngine.UI">
