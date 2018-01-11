@@ -1,9 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\codeandweb.com\Readme.txt">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\EnemyHealth.cs">
     <Files>
+<<<<<<< HEAD
       <File FileName="Assets\Script\CameraSystem.cs" Line="1" Column="1" />
       <File FileName="Assets\codeandweb.com\Readme.txt" Line="11" Column="1" />
+=======
+      <File FileName="Assets\Script\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\PlayerHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\EnemyDamage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\RocketHit.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\EnemyHealth.cs" Line="29" Column="1" />
+      <File FileName="Assets\Script\CameraSystem.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\DestroyMe.cs" Line="1" Column="1" />
+>>>>>>> 07b6ffd5c2283832c688ab53deaf90f4be22e09e
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
