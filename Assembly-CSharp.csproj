@@ -63,6 +63,15 @@
      <Compile Include="Assets\Script\PlayerMovement.cs" />
      <Compile Include="Assets\Script\ProjectileController.cs" />
      <Compile Include="Assets\Script\RocketHit.cs" />
+     <Compile Include="Assets\Scripts contoh\BonusPoints.cs" />
+     <Compile Include="Assets\Scripts contoh\Camera2DFollow.cs" />
+     <Compile Include="Assets\Scripts contoh\DestroyerScript.cs" />
+     <Compile Include="Assets\Scripts contoh\GameOver.cs" />
+     <Compile Include="Assets\Scripts contoh\Level2Script.cs" />
+     <Compile Include="Assets\Scripts contoh\Rabbits.cs" />
+     <Compile Include="Assets\Scripts contoh\Tiling.cs" />
+     <None Include="Assets\craftpix-986711-2d-fantasy-trolls-free-sprite-sheets\_TXT\LICENSES.txt" />
+     <None Include="Assets\craftpix-986711-2d-fantasy-trolls-free-sprite-sheets\_TXT\readme.txt" />
      <None Include="Assets\BayatGames\Free Platform Game Assets\Readme.txt" />
      <None Include="Assets\codeandweb.com\Readme.txt" />
  <Reference Include="UnityEngine.UI">
