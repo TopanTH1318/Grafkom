@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\2DForestDesigner\Editor\HPFD_EditorFree.js" />
+     <None Include="Assets\SoundManager\Readme.txt" />
      <None Include="Assets\codeandweb.com\Editor\SettingsTexturePackerImporter.txt" />
      <None Include="Assets\craftpix-986711-2d-fantasy-trolls-free-sprite-sheets\_TXT\LICENSES.txt" />
      <None Include="Assets\craftpix-986711-2d-fantasy-trolls-free-sprite-sheets\_TXT\readme.txt" />
