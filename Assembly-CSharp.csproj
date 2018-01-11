@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B27195EE-7E52-D2B5-3522-EC9B50CBE8B8}</ProjectGuid>
+    <ProjectGuid>{87118036-07AB-4C11-62A6-A54A4DE28862}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,8 +55,11 @@
      <Compile Include="Assets\Script\CameraMovement.cs" />
      <Compile Include="Assets\Script\CameraSystem.cs" />
      <Compile Include="Assets\Script\DestroyMe.cs" />
+     <Compile Include="Assets\Script\EnemyDamage.cs" />
+     <Compile Include="Assets\Script\EnemyHealth.cs" />
      <Compile Include="Assets\Script\PlatformMovement.cs" />
      <Compile Include="Assets\Script\Player_move.cs" />
+     <Compile Include="Assets\Script\PlayerHealth.cs" />
      <Compile Include="Assets\Script\PlayerMovement.cs" />
      <Compile Include="Assets\Script\ProjectileController.cs" />
      <Compile Include="Assets\Script\RocketHit.cs" />
@@ -138,7 +141,7 @@
  <HintPath>D:/Programs/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="TexturePackerImporter">
- <HintPath>D:/New folder/Grafkom-master/Assets/codeandweb.com/Editor/TexturePackerImporter.dll</HintPath>
+ <HintPath>D:/New folder (2)/Grafkom/Assets/codeandweb.com/Editor/TexturePackerImporter.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>C:/Users/Racerx And Racoon/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll</HintPath>

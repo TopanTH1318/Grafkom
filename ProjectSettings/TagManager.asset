@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Ground
   - Grabbable
+  - Enemy
+  - Pal
   layers:
   - Default
   - TransparentFX
@@ -16,8 +18,8 @@ TagManager:
   - 
   - 
   - Player
-  - 
-  - 
+  - Ground
+  - Shootable
   - 
   - 
   - 
