@@ -68,6 +68,7 @@ public class PlayerHealth : MonoBehaviour {
 
 	public void makeDead(){
 		myAnim.SetTrigger ("Dead");
+		damageScreen.color = damagedColour;
 	}
 
 	void OnTriggerEnter2D(Collider2D other){

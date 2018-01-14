@@ -21,6 +21,9 @@ public class PlayerMovement : MonoBehaviour {
 	//public Vector2 power = new Vector2(0,1800);
 	//private bool isJumping = false;
 
+	public static bool GameIsPaused = false;
+	public GameObject pauseMenuUI;
+
 	//rocket
 	public Transform gun;
 	public GameObject bullet;
@@ -75,13 +78,15 @@ public class PlayerMovement : MonoBehaviour {
 
 	void Update()
 	{
-		if(grounded && Input.GetAxis("Jump")>0){
+		if(grounded && Input.GetKeyDown(KeyCode.W)){
 			grounded = false;
 			//myAnim.SetBool ("isGrounded", grounded);
 			myRB.AddForce(new Vector2(0,jumpHeight));
 		}
 		//player shooting
-		if(Input.GetKeyDown(KeyCode.H)) fireRocket();
+		if(Input.GetKeyDown(KeyCode.L)) fireRocket();
+		if (Input.GetKeyDown (KeyCode.Escape))
+			Paused ();
 	}
 
 	// Update is called once per frame
@@ -122,5 +127,11 @@ public class PlayerMovement : MonoBehaviour {
 		if (other.transform.tag == "Batu") {
 			Batu.SetActive (true);
 		}
-	}		
+	}
+
+	void Paused(){
+		pauseMenuUI.SetActive (true);
+		Time.timeScale = 0f;
+		GameIsPaused = true;
+	}
 }
