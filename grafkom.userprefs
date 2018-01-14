@@ -1,14 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\EnemyHealth.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\TurretShoot.cs">
     <Files>
-      <File FileName="Assets\Script\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\HeartCollect.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\PlayerHealth.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\TurretShoot.cs" Line="27" Column="86" />
+      <File FileName="Assets\Script\BulletCannonController.cs" Line="18" Column="65" />
+      <File FileName="Assets\Script\EnemyHealth.cs" Line="16" Column="9" />
       <File FileName="Assets\Script\EnemyDamage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\PlayerMovement.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\RocketHit.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\EnemyHealth.cs" Line="29" Column="1" />
-      <File FileName="Assets\Script\CameraSystem.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\DestroyMe.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\ProjectileController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

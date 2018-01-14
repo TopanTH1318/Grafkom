@@ -8,6 +8,9 @@ TagManager:
   - Grabbable
   - Enemy
   - Pal
+  - Jatuh
+  - Batu
+  - Tembak
   layers:
   - Default
   - TransparentFX

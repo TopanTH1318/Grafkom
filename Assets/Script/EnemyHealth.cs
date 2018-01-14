@@ -10,7 +10,10 @@ public class EnemyHealth : MonoBehaviour {
 	public GameObject enemyDeathFX;
 	public Slider enemyHealthSlider;
 
-	float currentHealth;
+	public bool drops;
+	public GameObject theDrop;
+
+	public float currentHealth;
 
 	// Use this for initialization
 	void Start () {
@@ -25,6 +28,7 @@ public class EnemyHealth : MonoBehaviour {
 	}
 
 	public void addDamage(float damage){
+		enemyHealthSlider.gameObject.SetActive (true);
 		currentHealth -= damage;
 		enemyHealthSlider.value = currentHealth;
 		if (currentHealth <= 0)
@@ -34,5 +38,8 @@ public class EnemyHealth : MonoBehaviour {
 	void makeDead(){
 		Destroy (gameObject);
 		Instantiate (enemyDeathFX, transform.position, transform.rotation);
+		if (drops)
+			Instantiate (theDrop, transform.position, transform.rotation);
 	}
+
 }

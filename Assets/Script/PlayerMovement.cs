@@ -27,6 +27,9 @@ public class PlayerMovement : MonoBehaviour {
 	public float firerate = 1f;
 	public float nextfire = 0f;
 
+	//bola
+	public GameObject Batu;
+
 	// Use this for initialization
 	void Start () {
 
@@ -114,5 +117,10 @@ public class PlayerMovement : MonoBehaviour {
 		theScale.x *= -1;
 		transform.localScale = theScale;
 	}
-		
+
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.transform.tag == "Batu") {
+			Batu.SetActive (true);
+		}
+	}		
 }

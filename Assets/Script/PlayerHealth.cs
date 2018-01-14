@@ -20,6 +20,8 @@ public class PlayerHealth : MonoBehaviour {
 	Color damagedColour=new Color(0f,0f,0f,0.5f);
 	float smoothColour = 5f;
 
+	private Animator myAnim;
+
 	// Use this for initialization
 	void Start () {
 		currHealth = fullHealth;
@@ -31,6 +33,8 @@ public class PlayerHealth : MonoBehaviour {
 
 		damaged = false;
 		print (currHealth);
+
+		myAnim = GetComponent<Animator> ();
 	}
 	
 	// Update is called once per frame
@@ -55,8 +59,20 @@ public class PlayerHealth : MonoBehaviour {
 		}
 	}
 
+	public void addHealth(float healthAmount){
+		currHealth += healthAmount;
+		if (currHealth > fullHealth)
+			currHealth = fullHealth;
+		healthSlider.value = currHealth;
+	}
+
 	public void makeDead(){
-		Instantiate (deathFX, transform.position, transform.rotation);
-		Destroy (gameObject);
+		myAnim.SetTrigger ("Dead");
+	}
+
+	void OnTriggerEnter2D(Collider2D other){
+		if (other.transform.tag == "Mati") {
+			makeDead ();
+		}
 	}
 }
