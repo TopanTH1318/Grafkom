@@ -81,7 +81,7 @@ public class PlayerMovement : MonoBehaviour {
 			myRB.AddForce(new Vector2(0,jumpHeight));
 		}
 		//player shooting
-		if(Input.GetAxisRaw("Fire1")>0) fireRocket();
+		if(Input.GetKeyDown(KeyCode.H)) fireRocket();
 	}
 
 	// Update is called once per frame

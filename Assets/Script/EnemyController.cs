@@ -5,12 +5,12 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour {
 
 	//movemenr variables
-	public float Kecepatan = 10;
+	public float KecepatanX,kecepatanY,kecepatanZ;
 
 	private Rigidbody2D myRB;
 	private Animator myAnim;
-	private float moveX;
-	public bool facing;
+	public bool facing, notfacing;
+	SpriteRenderer sr;
 	//public Vector2 power = new Vector2(0,1800);
 	//private bool isJumping = false;
 	// Use this for initialization
@@ -20,11 +20,17 @@ public class EnemyController : MonoBehaviour {
 
 		myRB = GetComponent<Rigidbody2D> ();
 		myAnim = GetComponent<Animator> ();
-
-		facing = true;
-
+		sr = gameObject.GetComponent<SpriteRenderer> ();
+		facing = false;
 	}
 
+	void kanans(){
+		facing = true;
+	}
+
+	void kiris(){
+		facing = false;
+	}
 	//void Jump()
 	//{
 	//Jumping
@@ -43,40 +49,24 @@ public class EnemyController : MonoBehaviour {
 	//}
 
 	void Update () {
+		if (facing==true) {
+			transform.Translate (-0.05f, kecepatanY, kecepatanZ);
+			Vector2 position = transform.position;
+			if (position.x >= 233.1544f) {
+				facing = false;
+				sr.flipX = false;
+			}
+		} else{
+			transform.Translate (0.05f, kecepatanY, kecepatanZ);
+			Vector2 position = transform.position;
+			if (position.x <= 40.84f) {
+				facing = true;
+				sr.flipX = true;
+			}
+		}
 	}
 		
 
 	// Update is called once per frame
-	void FixedUpdate () {
-
-		//check if we are grounded - if no we are falling
-		//myAnim.SetBool ("isGrounded", grounded);
-
-		//myAnim.SetFloat("verticalSpeed",myRB.velocity.y);
-
-		//moveX = Input.GetAxis ("Horizontal");
-		//myAnim.SetFloat("Speed",Mathf.Abs(moveX));
-
-		//myRB.velocity = new Vector2 (moveX * Kecepatan, myRB.velocity.y);
-
-		//if (Input.GetButtonDown("Jump"))
-		//{
-		//	Jump();
-		//}
-
-		if (moveX > 0 && !facing) {
-			flip ();
-		} else if (moveX < 0 && facing) {
-			flip ();
-		}
-	}
-
-	void flip()
-	{
-		facing = !facing;
-		Vector3 theScale = transform.localScale;
-		theScale.x *= -1;
-		transform.localScale = theScale;
-	}
 
 }

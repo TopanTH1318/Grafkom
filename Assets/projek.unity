@@ -3757,6 +3757,7 @@ MonoBehaviour:
   enemyHealthSlider: {fileID: 1627145144}
   drops: 1
   theDrop: {fileID: 1799493416308878, guid: 24e372cfa5f9f10448a8c2014f59b1b6, type: 2}
+  currentHealth: 0
 --- !u!114 &346083690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9852,6 +9853,8 @@ MonoBehaviour:
   shootTime: 4
   shootFrom: {fileID: 168653616}
   chanceShoot: 1
+  enemyhealth: {fileID: 346083689}
+  meong: {fileID: 346083687}
 --- !u!61 &949477298
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14006,6 +14009,7 @@ MonoBehaviour:
   enemyHealthSlider: {fileID: 1273272996}
   drops: 0
   theDrop: {fileID: 1799493416308878, guid: 24e372cfa5f9f10448a8c2014f59b1b6, type: 2}
+  currentHealth: 0
 --- !u!58 &1295921228
 CircleCollider2D:
   m_ObjectHideFlags: 0
